@@ -1,0 +1,21 @@
+{
+  "name": "typlog-customizations",
+  "version": "1.0.0",
+  "description": "Typlog customizations, dedicated for https://ethanwong.page.",
+  "author": "Ethan Wong <e1hanw0ng@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GetToSet/typlog-customizations.git"
+  },
+  "homepage": "https://github.com/GetToSet/typlog-customizations.git",
+  "license": "MIT",
+  "devDependencies": {
+    "cssnano": "^5.1.14",
+    "postcss": "^8.4.20",
+    "postcss-cli": "^10.1.0",
+    "postcss-import": "^15.1.0"
+  },
+  "scripts": {
+    "build": "postcss ./src/index.css -o ./out/index.css"
+  }
+}
